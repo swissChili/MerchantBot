@@ -1,0 +1,3 @@
+language: go
+install: go get gopkg.in/mgo.v2/bson gopkg.in/mgo.v2 github.com/bwmarrin/discordgo
+script: go build merchantbot.go
